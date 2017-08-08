@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Emoji One\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-27 00:43+0300\n"
+"PO-Revision-Date: 2014-12-27 01:06+0300\n"
+"Last-Translator: Flector <rlector@gmail.com>\n"
+"Language-Team: Flector <rlector@gmail.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __();_e();__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../popup.php:7 ../wp-emoji-one.php:86
+msgid "WP Emoji One"
+msgstr "WP Emoji One"
+
+#: ../popup.php:31
+msgid "Emoticons and people"
+msgstr "Смайлики и люди"
+
+#: ../popup.php:33
+msgid "Nature and animals"
+msgstr "Природа и животные"
+
+#: ../popup.php:35
+msgid "Random objects"
+msgstr "Случайные объекты"
+
+#: ../popup.php:37
+msgid "Travel and places"
+msgstr "Путешествия и места"
+
+#: ../popup.php:39
+msgid "Other symbols"
+msgstr "Другие иконки"
+
+#: ../popup.php:47
+msgid "Size:"
+msgstr "Размер:"
+
+#: ../popup.php:55
+msgid "Specify the image size to use for the icons."
+msgstr "Укажите размер вставляемой иконки."
+
+#: ../popup.php:1182
+msgid "Cancel"
+msgstr "Отмена"
+
+#: ../wp-emoji-one.php:69
+msgid ""
+"WP Emoji One has successfully created a new DB table.(If you updated, plugin "
+"settings were reset to default.)<br />Go to the settings panel and "
+"<strong>configure WP Emoji One</strong> now."
+msgstr ""
+"Плагин WP Emoji One удачно сохранил свои настройки в базе данных (в случае "
+"обновления плагина настройки были сброшены на дефолтные). Зайдите в "
+"настройки плагина, чтобы его настроить."
+
+#: ../wp-emoji-one.php:98
+msgid "Security Error."
+msgstr "Ошибка безопасности."
+
+#: ../wp-emoji-one.php:103
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: ../wp-emoji-one.php:105
+msgid ""
+"All settings were reset. Please <a href=\"options-general.php?"
+"page=wp_emoji_one-button-options\">reload the page</a>."
+msgstr ""
+"Все настройки были сброшены. Пожалуйста <a href=\"options-general.php?"
+"page=wp_emoji_one-button-options\">перезагрузите страницу</a>."
+
+#: ../wp-emoji-one.php:111
+msgid ""
+"Error: Missing Database Table. The plugin may fail to create the databese "
+"table when install or update. Please re-install."
+msgstr ""
+"Ошибка базы данных. Плагину не удалось сохранить свои настройки в базе "
+"данных, пожалуйста переустановите плагин."
+
+#: ../wp-emoji-one.php:130
+msgid "WP Emoji One Options"
+msgstr "Настройки WP Emoji One"
+
+#: ../wp-emoji-one.php:133
+msgid "1. Basic settings"
+msgstr "1. Основные настройки"
+
+#: ../wp-emoji-one.php:136
+msgid "Place the buttons in"
+msgstr "Поместить кнопку  в "
+
+#: ../wp-emoji-one.php:139
+msgid "1st row"
+msgstr "1 ряд"
+
+#: ../wp-emoji-one.php:140
+msgid "2nd row"
+msgstr "2 ряд"
+
+#: ../wp-emoji-one.php:141
+msgid "3rd row"
+msgstr "3 ряд"
+
+#: ../wp-emoji-one.php:142
+msgid "4th row"
+msgstr "4 ряд"
+
+#: ../wp-emoji-one.php:143
+msgid "of TinyMCE toolbar."
+msgstr " редактора TinyMCE."
+
+#: ../wp-emoji-one.php:144
+msgid "Choose TinyMCE toolbar row which buttons will be placed in."
+msgstr ""
+"Выберите, в какую панель инструментов редактора TinyMCE будет помещена "
+"иконка плагина."
+
+#: ../wp-emoji-one.php:149
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../wp-emoji-one.php:152
+msgid "2. Icons List"
+msgstr "2. Список иконок"
+
+#: ../wp-emoji-one.php:156
+msgid "3. Your System Info"
+msgstr "3. Системная информация"
+
+#: ../wp-emoji-one.php:158
+msgid "Server OS:"
+msgstr "ОС сервера:"
+
+#: ../wp-emoji-one.php:159
+msgid "PHP version:"
+msgstr "Версия PHP:"
+
+#: ../wp-emoji-one.php:160
+msgid "MySQL version:"
+msgstr "Версия MySQL:"
+
+#: ../wp-emoji-one.php:161
+msgid "WordPress version:"
+msgstr "Версия WordPress:"
+
+#: ../wp-emoji-one.php:162
+msgid "Site URL:"
+msgstr "URL сайта:"
+
+#: ../wp-emoji-one.php:163
+msgid "WordPress URL:"
+msgstr "URL WordPress:"
+
+#: ../wp-emoji-one.php:164
+msgid "WordPress language:"
+msgstr "Язык WordPress:"
+
+#: ../wp-emoji-one.php:165
+msgid "WordPress character set:"
+msgstr "WordPress кодировка:"
+
+#: ../wp-emoji-one.php:166
+msgid "WordPress theme:"
+msgstr "WordPress тема:"
+
+#: ../wp-emoji-one.php:167
+msgid "WP Emoji One version:"
+msgstr "Версия плагина WP Emoji One:"
+
+#: ../wp-emoji-one.php:168
+msgid "WP Emoji One URL:"
+msgstr "URL плагина WP Emoji One:"
+
+#: ../wp-emoji-one.php:169
+msgid "Your browser:"
+msgstr "Ваш браузер:"
+
+#: ../wp-emoji-one.php:171
+msgid "4. Contact us"
+msgstr "4. Контакты"
+
+#: ../wp-emoji-one.php:173
+msgid "Monchito.net"
+msgstr "Monchito.net"
+
+#: ../wp-emoji-one.php:176
+msgid "To report a bug ,submit requests and feedback, "
+msgstr "С любыми вопросами по поводу плагина обращайтесь к нам через "
+
+#: ../wp-emoji-one.php:176
+msgid "Use <a href=\"http://www.monchito.net/contacto\">our contact form</a>"
+msgstr "эту <a href=\"http://www.monchito.net/contacto\">контактную форму</a>."

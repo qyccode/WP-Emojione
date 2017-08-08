@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Emoji One\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-14 18:27-0600\n"
+"PO-Revision-Date: 2015-08-24 12:50-0600\n"
+"Last-Translator: Monchito.net <hola@monchito.net>\n"
+"Language-Team: Monchito.net <hola@monchito.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __();_e();__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-emoji-one.php:69
+msgid "WP Emoji One has successfully created a new DB table.(If you updated, plugin settings were reset to default.)<br />Go to the settings panel and <strong>configure WP Emoji One</strong> now."
+msgstr "WP Emoji One ha creado una nueva tabla en la base de datos.(Si actualizaste, los ajustes del plugin fueron cambiados a su estado predeterminado.)<br />Go to the settings panel and <strong>configure WP Emoji One</strong> ahora."
+
+#: ../wp-emoji-one.php:86
+#: ../popup.php:7
+msgid "WP Emoji One"
+msgstr "WP Emoji One"
+
+#: ../wp-emoji-one.php:98
+msgid "Security Error."
+msgstr "Error de seguridad."
+
+#: ../wp-emoji-one.php:103
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: ../wp-emoji-one.php:105
+msgid "All settings were reset. Please <a href=\"options-general.php?page=wp_emoji_one-button-options\">reload the page</a>."
+msgstr "Todos los ajustes fueron reinicializados. Por favor, <a href=\"options-general.php?page=wp_emoji_one-button-options\">recarge la página</a>."
+
+#: ../wp-emoji-one.php:111
+msgid "Error: Missing Database Table. The plugin may fail to create the databese table when install or update. Please re-install."
+msgstr "Error: Falta una tabla en la base de datos. El plugin puede fallar al crear la base de datos cuando se instale o actualice. Por favor, reinstale."
+
+#: ../wp-emoji-one.php:130
+msgid "WP Emoji One Options"
+msgstr "Opciones de WP Emoji One"
+
+#: ../wp-emoji-one.php:133
+msgid "1. Basic settings"
+msgstr "1. Ajustes básicos"
+
+#: ../wp-emoji-one.php:136
+msgid "Place the buttons in"
+msgstr "Coloque los botones en"
+
+#: ../wp-emoji-one.php:139
+msgid "1st row"
+msgstr "1ra. fila"
+
+#: ../wp-emoji-one.php:140
+msgid "2nd row"
+msgstr "2da. fila"
+
+#: ../wp-emoji-one.php:141
+msgid "3rd row"
+msgstr "3ra. fila"
+
+#: ../wp-emoji-one.php:142
+msgid "4th row"
+msgstr "4ta. fila"
+
+#: ../wp-emoji-one.php:143
+msgid "of TinyMCE toolbar."
+msgstr "de la barra de herramientas TinyMCE."
+
+#: ../wp-emoji-one.php:144
+msgid "Choose TinyMCE toolbar row which buttons will be placed in."
+msgstr "Seleccione en que fila de la barra de herramientas TinyMCE se ubicará el botón."
+
+#: ../wp-emoji-one.php:149
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: ../wp-emoji-one.php:152
+msgid "2. Icons List"
+msgstr "2. Lista de íconos"
+
+#: ../wp-emoji-one.php:156
+msgid "3. Your System Info"
+msgstr "3. Información de su sistema"
+
+#: ../wp-emoji-one.php:158
+msgid "Server OS:"
+msgstr "Sistema operativo del servidor:"
+
+#: ../wp-emoji-one.php:159
+msgid "PHP version:"
+msgstr "Versión de PHP:"
+
+#: ../wp-emoji-one.php:160
+msgid "MySQL version:"
+msgstr "Versión de MySQL:"
+
+#: ../wp-emoji-one.php:161
+msgid "WordPress version:"
+msgstr "Versión de WordPress:"
+
+#: ../wp-emoji-one.php:162
+msgid "Site URL:"
+msgstr "URL del sitio:"
+
+#: ../wp-emoji-one.php:163
+msgid "WordPress URL:"
+msgstr "URL de WordPress:"
+
+#: ../wp-emoji-one.php:164
+msgid "WordPress language:"
+msgstr "Idioma de WordPress:"
+
+#: ../wp-emoji-one.php:165
+msgid "WordPress character set:"
+msgstr "Conjunto de carácteres de WordPress:"
+
+#: ../wp-emoji-one.php:166
+msgid "WordPress theme:"
+msgstr "Tema de WordPress:"
+
+#: ../wp-emoji-one.php:167
+msgid "WP Emoji One version:"
+msgstr "Versión de WP Emoji One:"
+
+#: ../wp-emoji-one.php:168
+msgid "WP Emoji One URL:"
+msgstr "URL de WP Emoji One:"
+
+#: ../wp-emoji-one.php:169
+msgid "Your browser:"
+msgstr "Su navegador:"
+
+#: ../wp-emoji-one.php:171
+msgid "4. Contact us"
+msgstr "4. Contáctenos"
+
+#: ../wp-emoji-one.php:173
+msgid "Monchito.net"
+msgstr "Monchito.net"
+
+#: ../wp-emoji-one.php:176
+msgid "To report a bug ,submit requests and feedback, "
+msgstr "Para reportar un error, solicitar cambios y sugerencias,"
+
+#: ../wp-emoji-one.php:176
+msgid "Use <a href=\"http://www.monchito.net/contacto\">our contact form</a>"
+msgstr "use <a href=\"http://www.monchito.net/contacto\">nuestro formulario de contacto</a>"
+
+#: ../popup.php:20
+msgid "People"
+msgstr "Personas"
+
+#: ../popup.php:22
+msgid "Nature and Animals"
+msgstr "Naturaleza y Animales"
+
+#: ../popup.php:24
+msgid "Food and Drink"
+msgstr "Comidas y Bebidas"
+
+#: ../popup.php:26
+msgid "Celebration"
+msgstr "Celebración"
+
+#: ../popup.php:26
+msgid "Activity"
+msgstr "Actividad"
+
+#: ../popup.php:30
+msgid "Travel and Places"
+msgstr "Viajes y Lugares"
+
+#: ../popup.php:32
+msgid "Objects and Symbols"
+msgstr "Objetos y Símbolos"
+
+#: ../popup.php:40
+msgid "Size:"
+msgstr "Tamaño"
+
+#: ../popup.php:48
+msgid "Specify the image size to use for the icons."
+msgstr "Seleccione el tamaño a usar para los íconos."
+
+#: ../popup.php:1625
+msgid "Cancel"
+msgstr "Cancelar"
+
