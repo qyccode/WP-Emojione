@@ -1,5 +1,5 @@
 ﻿=== WP-EmojiOne ===
-Contributors: 杳无宗
+Contributors: 周艳伟
 Tags: emoji,emojione,wp-emojione
 Donate link: http://yawzhou.com/emojione/
 Requires at least: 4.0
