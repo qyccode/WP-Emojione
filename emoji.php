@@ -1,8 +1,9 @@
 <?php
 /**
- * Author: 杳无宗
- * Author URI: http://yawzhou.com
- * Time: 2017.8.3 
+ * Author: Yaw Zhou
+ * Author URI: https://www.yawzhou.com
+ * Date: 2017.8.3 
+ * Latest Update: 2018.3.10 09:30
  */
 require_once( dirname(dirname(dirname(dirname(__FILE__)))) . '/wp-config.php');
 load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
@@ -13,9 +14,9 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 <head>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
- 	<meta name="author" content="杳无宗">
-  	<meta name="blogurl" content="http://yawzhou.com">
-	<title><?php _e('WP-EmojiOne',"wp_emojione"); ?></title>
+ 	<meta name="author" content="Yaw Zhou">
+  	<meta name="blogurl" content="https://www.yawzhou.com">
+	<title><?php _e('WP-Emojione',"wp_emojione"); ?></title>
 	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo plugin_dir_url( __FILE__ ); ?>/css/emojione.min.css">
 	<link rel="stylesheet" href="<?php echo plugin_dir_url( __FILE__ ); ?>/css/honeySwitch.css">
@@ -41,7 +42,7 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
   			border:1px solid #ddd; 
   			border-radius: 6px;
   		}
-  		.tabs{ 
+  		.yawtabs{ 
   			border-bottom: 2px solid #ddd;
   		}
 		.emoji_head{ 
@@ -59,7 +60,7 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 		}
 		.emoji_head a{ 
 			display: inline-block; 
-			padding: 15px 24px; 
+			padding: 6px 24px; 
 			border-bottom: 4px solid #e5e5e5; 
 			font-size: 20px; 
 			color: #aaa; 
@@ -71,19 +72,22 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 			color: #fff; 
 			background-color: #63B8FF;
 		}
-		.tabs div{ 
-			height: 200px; 
+		.yawtabs div{ 
+			height: 266px; 
 			background-color: #f8f8f8;
+			overflow: hidden;
 		}
 		.emoji_con{
 			width: 100%;
-			height:200px;
+			height: 260px;
+			/*padding-bottom: 8px;*/
 			overflow: auto;
 		}
 		.emoji_li{
 			display: inline-block;
 			width: 55px;
 			height: 35px;
+			line-height: 22px;
 			margin: 9px -7px -7px 6px;
 			text-align: center;
 			transform: scale(0.833333);
@@ -105,24 +109,24 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 		}
 		.title{
 			width: 100%;
-			height: 50px;
+			height: 40px;
 			background: #666;
 			/*border-radius: 6px 6px 0 0;*/
 		}
 		.title h4{
 			display: inline-block;
-			width: 35%;
+			width: 40%;
 			font-size: 16px;
 			color: #fff;
 			font-weight: bold;
 			padding-left: 10px;
 			margin: 0;
-			margin-top: 15px;
+			margin-top: 5px;
 		}
 		.notes{
 			float: right;
-			height: 50px;
-			line-height: 50px;
+			height: 40px;
+			line-height: 40px;
 			margin-right:10px;
 		}
 		.notes strong{
@@ -152,7 +156,7 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 		    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
 		    background-color: #ddd;  
 		}  
-		@media screen and (max-width: 720px){
+		@media screen and (max-width: 537px){
 			.box{
 				width: 293px;
 			}
@@ -162,18 +166,18 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 			}
 			.emoji_li{
 				width: 52px;
-				margin: 3px -6px -7px 6px;
+				margin: 4px -6px -7px 6px;
 				transform: scale(0.733333);
 			}
 			.emoji_li span{
 				width: 52px;
 				transform: scale(1.233333);
 			}
-			.tabs div{
-				height: 150px;
+			.yawtabs div{
+				height: 230px;
 			}
 			.emoji_con{
-				height:150px;
+				height:220px;
 			}
 		}
   	</style>
@@ -181,9 +185,9 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 <body onload="tinyMCEPopup.executeOnLoad('init();')">
 	<div class="box">
 		<div class="title">
-			<h4>Emoji-One</h4> <div class="notes"><strong>表情注释&nbsp;</strong><span class="switch-off" themeColor="#09f" id="notes"></span></div>
+			<h4>WP-Emojione</h4> <div class="notes"><strong>表情注释&nbsp;</strong><span class="switch-off" themeColor="#09f" id="notes"></span></div>
 		</div>
-		<div class="tabs">
+		<div class="yawtabs">
 		    <ul class="emoji_head">
 		        <li class="emoji_head_li"><a href="#tab-1"><i class="fa fa-smile-o" aria-hidden="true"></i></a></li>
 		        <li class="emoji_head_li"><a href="#tab-2"><i class="fa fa-paw" aria-hidden="true"></i></a></li>
@@ -1749,7 +1753,7 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 	<script src="<?php echo plugin_dir_url( __FILE__ ); ?>/js/honeySwitch.js"></script>
   	<script type="text/javascript">
 		$(function(){
-			$('.tabs').tabslet();
+			$('.yawtabs').tabslet();
 		});
 	</script>
 	<script type="text/javascript">
@@ -1760,23 +1764,23 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 		$(function(){
 			switchEvent("#notes",function(){
 				$(".emoji_li span").slideUp();
-				$('i').css('top','3px');
-				if ($(window).width()<=720) {
-					$('.emoji_li').css('marginTop','-10px');
-					$('.emoji_con').css({height:'140px',paddingTop:'10px'});
+				$('i').css('top','0');
+				if ($(window).width()<=537) {
+					$('.emoji_li').css('marginTop','-8px');
+					$('.emoji_con').css({paddingTop:'10px'});
 				}else{
-					$('.emoji_li').css('marginTop','-3px');
-					$('.emoji_con').css({height:'192px',paddingTop:'8px'});
+					$('.emoji_li').css('marginTop','0');
+					$('.emoji_con').css({marginTop:'6px'});
 				}
 			},function(){
 				$(".emoji_li span").slideDown();
 				$('i').css('top','-3px');
-				if ($(window).width()<=720){
+				if ($(window).width()<=537){
 					$('.emoji_li').css('marginTop','');
-					$('.emoji_con').css({height:'150px',paddingTop:''});
+					$('.emoji_con').css({paddingTop:''});
 				}else{
 					$('.emoji_li').css('marginTop','');
-					$('.emoji_con').css({height:'200px',paddingTop:''});
+					$('.emoji_con').css({marginTop:''});
 				}
 			});
 			switchEvent("#notes",function(){

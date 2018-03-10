@@ -1,36 +1,33 @@
-﻿=== WP-EmojiOne ===
-Contributors: 周艳伟
-Tags: emoji,emojione,wp-emojione
-Donate link: http://yawzhou.com/emojione/
+﻿=== WP-Emojione ===
+Contributors: Yaw Zhou
+Tags: emoji,emojione,WP-Emojione
+Donate link: https://www.yawzhou.com/emojione/
 Requires at least: 4.0
-Tested up to: 4.8.1
-Stable tag: 1.0.1
+Tested up to: 4.9.4
+Stable tag: 1.1.3
+Date: 2018.3.10 09:30
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-给你的文章和页面添加更全的EmojiOne表情！
-
-== Description ==
-个人也算是个表情党吧，尤其钟爱emoji。博客先后用了许多emoji插件都不尽人意，直到突然有一天萌生了自己开发个称心的emoji插件的想法。然后从2017年7月初开始着手这个项目，直到8月初开发完毕。因为个人还算是个php小白，期间参照了Monchito.net的钩子，在此特别鸣谢！
+Add a fuller emojione look to your posts and pages!
 
 == Changelog ==
+= 1.1.3 = (2018.3.10)
+* PC端打开WP-Emojione窗口放大;
+* 修复几处表情点击无效的bug;
+* 因为多数朋友建议,还是把雪碧图改为了本地,需要cdn服务的可以找我帮忙替换;
+
 = 1.0.1 =
-* 更改sprite图的地址为国内cdn，提高响应速度；
-
-* 修复了某些情况下emojione表情显示过大的bug；
-
-* 优化了诸多细节；
+* 修复了某些情况下emojione表情显示过大的bug;
+* 优化了其它细节;
 
 = 1.0.0 =
-* 适配了所有的EmojiOne3.1图标；
+* 适配了所有的EmojiOne3.1图标;
 
 == Upgrade Notice ==
 = 1.0.1 =
-更改sprite图的地址为国内cdn，提高响应速度；
-
-修复了某些情况下emojione表情显示过大的bug；
-
-优化了诸多细节；
+更改sprite图的地址为国内cdn，提高响应速度;
+修复了某些情况下emojione表情显示过大的bug;
 
 = 1.0.0 =
-适配了所有的EmojiOne3.1图标；
+适配了所有的EmojiOne3.1图标;
