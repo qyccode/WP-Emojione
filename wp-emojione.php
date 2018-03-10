@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: WP-Emojione
- * Plugin URI: https://www.yawzhou.com/emojione/
- * Description: Add a fuller emojione look to your posts and pages!
+ * Plugin URI: https://www.yawzhou.com/wp-emojione/
+ * Description: Add vivid emojione expression to your wordpress.
  * Version: 1.1.3
  * Author: Yaw Zhou
  * Author URI: https://www.yawzhou.com
@@ -152,7 +152,7 @@ function wp_emojione_options_panel(){
 	</form>
 	<h3><?php _e("2. WP-Emojione表情预览", 'wp_emojione') ?></h3>
 	<p>
-	<iframe width="300" height="350" scrolling="no" src="<?php echo $wp_emojione_plugin_url; ?>emoji-test.html"></iframe>
+	<iframe width="300" height="350" scrolling="no" src="<?php echo $wp_emojione_plugin_url; ?>emojione.html"></iframe>
 	</p>
 	<h3><?php _e("3. 请我喝咖啡", 'wp_emojione') ?></h3>
 	<p>

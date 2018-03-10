@@ -1,7 +1,7 @@
 ﻿=== WP-Emojione ===
 Contributors: Yaw Zhou
 Tags: emoji,emojione,WP-Emojione
-Donate link: https://www.yawzhou.com/emojione/
+Donate link: https://www.yawzhou.com/wp-emojione/
 Requires at least: 4.0
 Tested up to: 4.9.4
 Stable tag: 1.1.3

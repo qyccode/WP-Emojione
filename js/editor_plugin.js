@@ -47,7 +47,7 @@
 					longname  : 'wp-emoji_one',
 					author 	  : 'Yaw Zhou',
 					authorurl : 'https://www.yawzhou.com',
-					infourl   : 'https://www.yawzhou.com/emojione/',
+					infourl   : 'https://www.yawzhou.com/wp-emojione/',
 					version   : "1.1.3"
 			};
 		}
