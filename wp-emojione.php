@@ -1,18 +1,18 @@
 <?php
 /**
  * Plugin Name: WP-Emojione
- * Plugin URI: https://www.yawzhou.com/wp-emojione/
+ * Plugin URI: https://github.com/YaweeZhou/WP-Emojione
  * Description: Add vivid emojione expression to your wordpress.
  * Version: 1.1.3
- * Author: Yaw Zhou
- * Author URI: https://www.yawzhou.com
+ * Author: Yawee
+ * Author URI: https://yaw.ee
  * Time: 2018.3.10 09:35
  * License: GPLv2
  * Text Domain: wp_emojione
  * Domain Path: /languages/
  */
 
-/*  Copyright 2017 Yaw Zhou (email : admin@yawzhou.com)
+/*  Copyright 2018 Yawee (email : zhou@yaw.ee)
 
 	This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -28,7 +28,7 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-defined('ABSPATH') or die("这里没有什么可看的！或者可以到我博客(www.yawzhou.com)喝杯茶吖！");
+defined('ABSPATH') or die("这里没有什么可看的！或者可以到我博客(yaw.ee)喝杯茶吖！");
 
 #------------------------------------------------------------------------------
 # 插件初始化
@@ -174,10 +174,10 @@ function wp_emojione_options_panel(){
 	</p>
 	<h3><?php _e("5. 联系我", 'wp_emojione') ?></h3>
 	<p>
-	<?php _e("Yaw Zhou", 'wp_emojione') ?> [ <a href="https://www.yawzhou.com" target="_blank">https://www.yawzhou.com</a> ] 
+	<?php _e("Yawee", 'wp_emojione') ?> [ <a href="https://yaw.ee" target="_blank">https://yaw.ee</a> ] 
 	</p>
 	<p>
-	<?php _e("如果你在使用过程中遇到什么问题, ", 'wp_emojione') ?><?php _e('请 <a href="https://www.yawzhou.com/guestbook" target="_blank">给我留言</a>！', 'wp_emojione') ?>
+	<?php _e("如果你在使用过程中遇到什么问题, ", 'wp_emojione') ?><?php _e('请 <a href="https://yaw.ee/guestbook" target="_blank">给我留言</a>！', 'wp_emojione') ?>
 	</p>
 	</div>
 <?php } 

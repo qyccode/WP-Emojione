@@ -1,7 +1,7 @@
 <?php
 /**
- * Author: Yaw Zhou
- * Author URI: https://www.yawzhou.com
+ * Author: Yawee
+ * Author URI: https://yaw.ee
  * Date: 2017.8.3 
  * Latest Update: 2018.3.10 09:30
  */
@@ -14,8 +14,8 @@ load_plugin_textdomain('wp_emojione', false, dirname( plugin_basename( __FILE__ 
 <head>
 	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
- 	<meta name="author" content="Yaw Zhou">
-  	<meta name="blogurl" content="https://www.yawzhou.com">
+ 	<meta name="author" content="Yawee">
+  	<meta name="blogurl" content="https://yaw.ee">
 	<title><?php _e('WP-Emojione',"wp_emojione"); ?></title>
 	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="<?php echo plugin_dir_url( __FILE__ ); ?>/css/emojione.min.css">
