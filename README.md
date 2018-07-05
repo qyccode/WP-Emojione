@@ -1,4 +1,4 @@
-﻿## WP-Emojione ##
+## WP-Emojione ##
 Author: Yawee 
 Author Blog: https://yaw.ee 
 Tags: emoji,emojione,WP-Emojione 
