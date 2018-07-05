@@ -1,13 +1,23 @@
 ## WP-Emojione ##
+
 Author: Yawee 
+
 Author Blog: https://yaw.ee 
+
 Tags: emoji,emojione,WP-Emojione 
+
 Donate link: https://github.com/YaweeZhou/WP-Emojione 
+
 Requires at least: 4.0 
+
 Tested up to: 4.9.4 
+
 Stable tag: 1.1.3 
+
 Date: 2018.3.10 09:30 
+
 License: GPLv2 
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html 
 
 > 给你的WordPress文章和页面添加你喜欢的emojione表情!
