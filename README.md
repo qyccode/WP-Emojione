@@ -26,6 +26,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 ### 安装方法 ###
 Download ZIP, 打开你的WordPress后台, 安装插件, 在线上传, 启用. 
+
 或者手动解压压缩包, 把WP-Emojione文件夹上传到你的WordPress插件目录, 后台插件栏启用. 
 
 ### 更新记录 ###
